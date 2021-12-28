@@ -281,8 +281,8 @@ header {
     margin-right: 8px;
   }
 
-  .connect__contacts:hover &,
-  .connect__contacts:focus & {
+  .connect__contacts--mail:hover &,
+  .connect__contacts--mail:focus & {
     fill: var(--logo-color);
   }
 
@@ -302,8 +302,8 @@ header {
     margin-right: 8px;
   }
 
-  .connect__contacts:hover &,
-  .connect__contacts:focus & {
+  .connect__contacts--tel:hover &,
+  .connect__contacts--tel:focus & {
     fill: var(--logo-color);
   }
   @media screen and (max-width: 767px) {
@@ -343,4 +343,10 @@ header {
 .connect-social-nets--link {
   text-decoration: none;
   color: var(--logo-color);
+}
+.menu-part {
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    bottom: 5%;
+  }
 }

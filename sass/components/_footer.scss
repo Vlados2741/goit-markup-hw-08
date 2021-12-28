@@ -65,11 +65,13 @@ footer .container {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: center;
   color: var(--white);
 
   @media screen and (max-width: 767px) {
     margin-top: 60px;
+  }
+  @media screen and (max-width: 1199px) {
+    text-align: center;
   }
 }
 .join-us__social-networks {
